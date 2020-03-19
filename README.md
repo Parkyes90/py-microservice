@@ -12,6 +12,11 @@ pip install -r requirements.txt
 FLASK_APP=services.app flask run
 ```
 
+### Test
+```shell script
+pytest
+```
+
 
 ### Locust (Load Test)
 ```shell script
