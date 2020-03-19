@@ -14,7 +14,7 @@ FLASK_APP=services.app flask run
 
 ### Test
 ```shell script
-pytest
+tox
 ```
 
 
