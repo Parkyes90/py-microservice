@@ -27,4 +27,4 @@ test: build test_dependencies
 	$(BIN)/tox
 
 run:
-	FLASK_APP=service bin/flask run
+	FLASK_APP=services.app bin/flask run

@@ -14,11 +14,16 @@ FLASK_APP=services.app flask run
 
 ### Test
 ```shell script
-tox
+tox -e test
 ```
 
 
 ### Locust (Load Test)
 ```shell script
 locust -f locust_script.py -- port 8080
+```
+
+### Docs
+```shell script
+tox -e docs
 ```
