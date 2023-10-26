@@ -39,4 +39,4 @@ swagger-parser==1.0.1
 swagger-spec-validator==2.5.0
 urllib3==1.26.17
 wcwidth==0.1.8
-Werkzeug==2.2.3
+Werkzeug==3.0.1
